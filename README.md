@@ -1,87 +1,85 @@
-📊 User Behaviour Analysis – Mobile Usage Dataset
+#  User Behaviour Analysis – Mobile Usage Dataset
 
-This project analyzes smartphone user behavior patterns using a structured dataset of 700 users.
-If you're serious about understanding digital consumption patterns instead of just plotting random charts, this dataset gives you enough depth to extract meaningful insights.
+This project analyzes smartphone user behavior patterns using a structured dataset of 700 users.  
+This project incorporates interactive dashboards and pivot table summaries to deepen the analysis and deliver clear, actionable insights as the final output.
 
-📁 Repository Structure
+##  Repository Structure
 ├── Analysis - Behavioural usage 1.xlsx
-│   ├── user_behavior_dataset     # Raw dataset (700 records)
-│   ├── Pivot analysis             # Aggregated insights
-│   └── Dashboard                  # Visual summary
+│ ├── user_behavior_dataset # Raw dataset (700 records)
+│ ├── Pivot analysis # Aggregated insights
+│ └── Dashboard # Visual summary
 ├── README.md
 
-📌 Dataset Overview
 
-Total Records: 700 users
+---
 
-Total Features: 14
+##  Dataset Overview
 
-Data Type: Structured (numerical + categorical)
+- **Total Records:** 700 users  
+- **Total Features:** 14  
+- **Data Type:** Structured (Numerical + Categorical)  
+- **Domain:** Smartphone usage behavior  
 
-Domain: Smartphone usage behavior
+---
 
-🧾 Features Description
-Column Name	Description
-User ID	Unique identifier for each user
-Device Model	Smartphone model used
-Operating System	Android / iOS
-App Usage Time (min/day)	Total app usage in minutes per day
-Screen On Time (hours/day)	Average screen-on time per day
-Battery Drain (mAh/day)	Daily battery consumption
-Number of Apps Installed	Total installed applications
-Data Usage (MB/day)	Daily mobile data consumption
-Age	User age
-Gender	Male / Female
-User Behavior Class	Behavioral segmentation category
-App usage (hours)	Converted usage in hours
-App usage Duration	Categorized app usage range
-Screen Duration	Categorized screen-on range
-🎯 Objective
+##  Features Description
+
+| Column Name | Description |
+|-------------|-------------|
+| User ID | Unique identifier for each user |
+| Device Model | Smartphone model used |
+| Operating System | Android / iOS |
+| App Usage Time (min/day) | Total app usage in minutes per day |
+| Screen On Time (hours/day) | Average screen-on time per day |
+| Battery Drain (mAh/day) | Daily battery consumption |
+| Number of Apps Installed | Total installed applications |
+| Data Usage (MB/day) | Daily mobile data consumption |
+| Age | User age |
+| Gender | Male / Female |
+| User Behavior Class | Behavioral segmentation category |
+| App usage (hours) | Converted usage in hours |
+| App usage Duration | Categorized app usage range |
+| Screen Duration | Categorized screen-on range |
+
+---
+
+##  Objective
 
 The goal of this project is to:
 
-Identify patterns in mobile usage behavior
+- Identify patterns in mobile usage behavior  
+- Segment users into behavioral classes  
+- Analyze correlations between:
+  - Screen time and battery drain  
+  - App usage and data consumption  
+  - Device type and usage intensity  
+- Build analytical dashboards for insight visualization  
 
-Segment users into behavioral classes
+The real value lies in understanding relationships between variables, not just computing averages.
 
-Understand correlations between:
+---
 
-Screen time and battery drain
+##  Pivot Analysis
 
-App usage and data consumption
+The **Pivot analysis** sheet summarizes:
 
-Device type and usage intensity
+- Usage trends by operating system  
+- Behavioral class distributions  
+- Age vs usage patterns  
+- Device-based usage comparison  
 
-Build analytical dashboards for insight visualization
+This layer transforms raw data into interpretable trends.
 
-If you only look at averages, you’ll miss the story. The value lies in relationships between variables.
+---
 
-📊 Pivot Analysis
+##  Dashboard
 
-The Pivot analysis sheet summarizes:
+The **Dashboard** sheet provides visual insights including:
 
-Usage trends by operating system
-
-Behavioral class distributions
-
-Age vs usage patterns
-
-Device-based usage comparison
-
-This is where trends become visible instead of buried in raw data.
-
-📈 Dashboard
-
-The Dashboard sheet provides visual insights including:
-
-App usage distribution
-
-Screen time segmentation
-
-Behavioral class breakdown
-
-OS comparison
+- App usage distribution  
+- Screen time segmentation  
+- Behavioral class breakdown  
+- OS comparison  
 
 
 
-if i paste the content in the github read me  file , it's not following the font size and indentation which you provide..... resolve this 
